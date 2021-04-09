@@ -16,6 +16,7 @@ export const getData = (url: string, props: any) => {
             })
             .catch(error => {
                 // TODO: handle the error when implemented
+                console.log("handle the error when implemented")
             })
     }
 }

@@ -5,7 +5,6 @@ import App from './containers/App';
 // import registerServiceWorker from './registerServiceWorker';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap-theme.css';
 import repositoryReducer from './store/reducers/repositoryReducer';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
